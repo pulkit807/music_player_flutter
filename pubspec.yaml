@@ -1,0 +1,36 @@
+name: music_player
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_audio_query: ^0.3.5+6
+  just_audio: ^0.8.0
+  bloc: ^6.1.1
+  flutter_bloc: ^6.1.1
+  audioplayers: ^0.19.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/music.png
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: fonts/Comfortaa.ttf
+        - asset: fonts/Comfortaa-Bold.ttf
+          weight: 900
+    - family: Audiowide
+      fonts:
+        - asset: fonts/Audiowide-Regular.ttf
+  uses-material-design: true
